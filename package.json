@@ -4,8 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node ./index.js",
+    "chacha": "echo \"This is good\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aman",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "accessibility": "^3.0.9",
+    "chalk": "^5.3.0",
+    "one-liner-joke": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }

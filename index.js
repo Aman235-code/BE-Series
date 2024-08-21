@@ -37,7 +37,9 @@ const http = require("http");
 //   else console.log("done");
 // });
 
-const server = http.createServer(function (req, res) {
-  res.end("Hello World");
-});
-server.listen(3000);
+// const server = http.createServer(function (req, res) {
+//   res.end("Hello World");
+// });
+// server.listen(3000);
+
+console.log("hello world");
